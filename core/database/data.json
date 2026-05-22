@@ -1,0 +1,128 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "first_name": "Иван",
+            "last_name": "Иванов",
+            "birth_date": "1990-01-01",
+            "gender": "male",
+            "phone": "+79991234567",
+            "email": "ivan@example.com",
+            "address": {
+                "country": "Россия",
+                "city": "Москва",
+                "street": "Тверская",
+                "house_number": "1",
+                "postal_code": "101000"
+            },
+            "user_type": "employee",
+            "role": "Менеджер",
+            "salary": 100000.0,
+            "is_working": true
+        },
+        {
+            "user_id": 2,
+            "first_name": "Петр",
+            "last_name": "Петров",
+            "birth_date": "1995-05-15",
+            "gender": "male",
+            "phone": "+79997654321",
+            "email": "petr@example.com",
+            "address": {
+                "country": "Россия",
+                "city": "Москва",
+                "street": "Пушкина",
+                "house_number": "10",
+                "postal_code": "101001"
+            },
+            "user_type": "employee",
+            "role": "Продавец",
+            "salary": 80000.0,
+            "is_working": true
+        },
+        {
+            "user_id": 3,
+            "first_name": "Анна",
+            "last_name": "Смирнова",
+            "birth_date": "1988-03-20",
+            "gender": "female",
+            "phone": "+79991112233",
+            "email": "anna@example.com",
+            "address": {
+                "country": "Россия",
+                "city": "Санкт-Петербург",
+                "street": "Невский",
+                "house_number": "50",
+                "postal_code": "190000"
+            },
+            "user_type": "customer",
+            "bonus_points": 0,
+            "total_purchases": 0.0
+        }
+    ],
+    "products": [
+        {
+            "product_id": 1,
+            "article": "PRD-0QN2OB",
+            "name": "Яблоки",
+            "category": "food",
+            "price": 150.0,
+            "quantity": 100
+        },
+        {
+            "product_id": 2,
+            "article": "PRD-HVDAJ1",
+            "name": "Ноутбук",
+            "category": "electronics",
+            "price": 75000.0,
+            "quantity": 20
+        },
+        {
+            "product_id": 3,
+            "article": "PRD-OFSLJV",
+            "name": "Футболка",
+            "category": "clothes",
+            "price": 1500.0,
+            "quantity": 50
+        },
+        {
+            "product_id": 4,
+            "article": "PRD-GE29UT",
+            "name": "Диван",
+            "category": "furniture",
+            "price": 35000.0,
+            "quantity": 10
+        },
+        {
+            "product_id": 5,
+            "article": "PRD-B1YAW3",
+            "name": "Хлеб",
+            "category": "food",
+            "price": 50.0,
+            "quantity": 200
+        }
+    ],
+    "warehouses": [
+        {
+            "warehouse_id": 1,
+            "name": "Главный склад",
+            "address": "г. Москва, ул. Складская, д. 1",
+            "manager_id": 1,
+            "cells": [],
+            "is_opened": true
+        }
+    ],
+    "sales_points": [
+        {
+            "sales_point_id": 1,
+            "name": "Основной магазин",
+            "address": "г. Москва, ул. Торговая, д. 5",
+            "warehouse_id": 1,
+            "employees": [],
+            "products": [],
+            "total_income": 0.0,
+            "is_opened": true
+        }
+    ],
+    "orders": []
+}
